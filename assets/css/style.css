@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: #141415;
+    font-family: Verdana, sans-serif; 
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .wrapper {
+    background-color: #313131;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple {
+    width: 19.26px;
+    height: 22.87px;
+}
+
+section .text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.61px;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+section {
+    padding: 58px;
+}
+
+.buy-now {
+    color: #51ACFF; 
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.buy-now:hover {
+    color: #0056b3; 
+}
+
+section .monitor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 41px;
+}
+
+section .cards {
+    display: flex;
+    justify-content: center;
+}
+
+section .cards .card-one .up-to, .card-two .up-to, .card-three .up-to {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+section .cards .card-one .number, .card-two .number, .card-three .number {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+section .cards .card-one .information, .card-two .information, .card-three .information {
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+section .cards .card-one, .card-two, .card-three {
+    width: 96px;
+    height: 88px;
+    flex-shrink: 0;
+    margin-right: 65px;
+}
+
+footer .wrapper {
+    background-color: #313131;
+    display: flex;
+    flex-direction: column;
+    height: 218px;
+    align-items: center;
+}
+
+footer .social-media {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 27.826px;
+    flex-shrink: 0;
+}
+
+footer .text {
+    color: #7D7D7D;
+    font-size: 10px;
+    font-weight: 400;
+    width: 518px;
+    height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.d1 {
+    margin-bottom: 32px;
+}
+
+.d2 {
+    margin-bottom: 9px;
+}
